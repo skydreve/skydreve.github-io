@@ -20,18 +20,12 @@
           border: 0;
       }
   </style>
-  <script type="text/javascript">
-      window.onload = function () {
-          var iframeEle = document.getElementsByTagName("iframe");
-          // iframe使用子页面的title
-          iframeEle.contentWindow.document.title;
-      }
-  </script>
 </head>
   
 <!-- <frameset framespacing="0" border="0" rows="0" frameborder="0">
 <frame name="main" src="https://www.suni.cf:8888/" scrolling="auto" noresize>
 </frameset> -->
-<iframe scr="https://www.suni.cf:8888/"  allowfullscreen="true" allow="microphone; camera"></iframe>
+<iframe id="iframe" name="iframe" frameborder="0" scrolling="auto" src="https://www.suni.cf:8888/">
+</iframe>
   
 </html>
